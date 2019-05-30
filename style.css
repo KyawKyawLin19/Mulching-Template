@@ -63,3 +63,18 @@ body {
   color: #fd5c63;
   font-weight: 700;
 }
+
+.clients {
+  background: url('images/b6.jpg');
+  background-size: cover;
+  height: 75vh;
+}
+
+.btn-read {
+  border-bottom: 1px solid #000;
+  text-decoration: none !important;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fd5c63;
+  letter-spacing: 1px;
+}
