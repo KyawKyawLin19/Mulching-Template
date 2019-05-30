@@ -1,0 +1,65 @@
+body {
+  font-family: 'Mada', sans-serif;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background: #000;
+}
+
+.mainbanner {
+  background: url('images/b3.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;  
+}
+
+.navbar {
+  background: transparent !important;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.wh-clo {
+  color: #ffffff !important;
+}
+
+.bl-clo {
+  background: #000;
+}
+
+.pd-0-mr-0{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 15px 20px;
+}
+ 
+.hero-text {
+  margin-top: 180px;
+}
+
+.mt-70 {
+  margin-top: 70px; 
+}
+
+.footer {
+  padding: 130px;
+}
+
+.subtitle-text {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #4c4c4c;
+}
+
+.subtitle {
+  font-family: 'Poiret One', cursive;
+  color: #fd5c63;
+  font-weight: 700;
+}
