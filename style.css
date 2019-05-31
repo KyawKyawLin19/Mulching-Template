@@ -14,7 +14,11 @@ body {
   background: url('images/b3.jpg');
   background-position: center;
   background-size: cover;
-  height: 100vh;  
+  height: 45vh;
+}
+
+.h-100 {
+  height: 100vh !important;
 }
 
 .navbar {
@@ -56,12 +60,20 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
   color: #4c4c4c;
+  line-height: 25px;
 }
 
 .subtitle {
   font-family: 'Poiret One', cursive;
   color: #fd5c63;
   font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.font-poiret {
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .clients {
@@ -72,9 +84,53 @@ body {
 
 .btn-read {
   border-bottom: 1px solid #000;
+  padding: 5px;
   text-decoration: none !important;
   font-size: 19px;
   font-weight: 700;
   color: #fd5c63;
   letter-spacing: 1px;
+}
+
+a:hover {
+  color: #fd5c63;
+}
+
+.mb-24 {
+  margin-bottom: 24px; 
+}
+
+.mr-8 {
+  margin-top: 8px;
+}
+
+.mt-48{
+  margin-top: 48px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.contact-text {
+  color: #4c4c4c;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.stats {
+  background: url('images/b2.jpg');
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
 }
