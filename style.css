@@ -1,5 +1,6 @@
 body {
   font-family: 'Mada', sans-serif;
+  letter-spacing: 1px;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -50,10 +51,6 @@ body {
 
 .mt-70 {
   margin-top: 70px; 
-}
-
-.footer {
-  padding: 130px;
 }
 
 .subtitle-text {
@@ -132,5 +129,38 @@ a:hover {
   height: 45vh;
   background-position: center;
   background-size: cover;
+  color: #ffffff;
+}
+
+.top-icon, .top-icon:hover {
+  color:#ffffff;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.pd-tb-24 {
+  padding-top: 24px;
+  padding-bottom: 24px; 
+}
+
+.pd-48-15{
+  padding: 48px 15px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.footer-copyright {
+  color: #fd5c63;
+}
+
+.icon-link {
+  color: #6F6E6E;
+  font-size: 25px;
+  padding-right: 40px; 
+}
+
+.icon-link:hover {
   color: #ffffff;
 }
